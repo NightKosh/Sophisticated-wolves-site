@@ -1,1 +1,1 @@
-# [Sophisticated wolves mod site](http://sophisticated_wolves.nightkosh.com/)
+# [Sophisticated wolves mod site](http://sophisticated-wolves.nightkosh.com)
