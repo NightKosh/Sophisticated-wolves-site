@@ -1,0 +1,78 @@
+<div ng-controller="AboutCtrl">
+    <h2>{{about.title}}</h2>
+
+    <p>{{about.line1}}</p>
+
+    <p>{{about.line2}}</p>
+
+    <h3>{{about.nametags.title}}</h3>
+    <p>{{about.nametags.line1}}</p>
+    <p>{{about.nametags.line2}}</p>
+    <ul class="gallery">
+        <li ng-repeat="image in about.nametagsImg">
+            <a ng-click="openLightboxModal(about.nametagsImg, $index)"
+               style="background-image: url('{{image.thumbUrl}}');"></a>
+        </li>
+    </ul>
+
+    <h3>{{about.breeding.title}}</h3>
+    <p>{{about.breeding.line1}}</p>
+
+    <ul class="gallery">
+        <li ng-repeat="image in about.breedingImg">
+            <a ng-click="openLightboxModal(about.breedingImg, $index)"
+               style="background-image: url('{{image.thumbUrl}}');"></a>
+        </li>
+    </ul>
+
+    <h3>{{about.biomeWolves.title}}</h3>
+    <p>{{about.biomeWolves.line1}}</p>
+
+    <ul class="gallery">
+        <li ng-repeat="image in about.biomeWolvesImg">
+            <a ng-click="openLightboxModal(about.biomeWolvesImg, $index)"
+               style="background-image: url('{{image.thumbUrl}}');"></a>
+        </li>
+    </ul>
+
+    <h3>{{about.extinguishing.title}}</h3>
+    <p>{{about.extinguishing.line1}}</p>
+
+    <ul class="gallery">
+        <li ng-repeat="image in about.extinguishingImg">
+            <a ng-click="openLightboxModal(about.extinguishingImg, $index)"
+               style="background-image: url('{{image.thumbUrl}}');"></a>
+        </li>
+    </ul>
+
+    <h3>{{about.creeper.title}}</h3>
+    <p>{{about.creeper.line1}}</p>
+    <p>{{about.creeper.line2}}</p>
+
+    <ul class="gallery">
+        <li ng-repeat="image in about.creeperImg">
+            <a ng-click="openLightboxModal(about.creeperImg, $index)"
+               style="background-image: url('{{image.thumbUrl}}');"></a>
+        </li>
+    </ul>
+
+    <h3>{{about.feeding.title}}</h3>
+    <p>{{about.feeding.line1}}</p>
+
+    <h3>{{about.canceling.title}}</h3>
+    <p>{{about.canceling.line1}}</p>
+
+    <h3>{{about.mining.title}}</h3>
+    <p>{{about.mining.line1}}</p>
+
+    <h3>{{about.evil.title}}</h3>
+    <p>{{about.evil.line1}}</p>
+
+    <h3>{{about.tweak.title}}</h3>
+    <p>{{about.tweak.line1}}</p>
+
+    <h3>{{about.miscellaneous.title}}</h3>
+    <p>{{about.miscellaneous.line1}}</p>
+
+
+</div>

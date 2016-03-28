@@ -1,0 +1,48 @@
+{
+    "title" : "Change Log",
+    "v3_5_0" : {
+        "line1" : "Fix server crash",
+        "line2" : "Fix game crash at sneaking",
+        "line3" : "Fix some seriouse AI problems"
+    },
+    "v3_4_1" : {
+        "line1" : "Fix vanilla wolves transformation to sophisticated wolves",
+        "line2" : "Change dot tag recipe - 5 tags instead of 1"
+    },
+    "v3_4_0" : {
+        "line1" : "Wolves can swim again.",
+        "line2" : "Drowning wolves will be teleported to its owner."
+    },
+    "v3_3_0" : {
+        "line1" : "Updated to minecraft 1.8",
+        "line2" : "Some optimization.",
+        "line3" : "Increase maximum amount of chars in dog's name tag GUI",
+        "line4" : "Dogs will try to hold distance in 3 blocks from creepers(in any state)"
+    },
+    "v3_2_0" : {
+        "line1" : "Wolves can be hit by its owner only when owner is sneaking.(It will protect wolves from accidental hit)",
+        "line2" : "Wolves can't collide with each other(Wolves will not be doomed to fall by each other anymore)",
+        "line3" : "Disable hurt animation by cacti"
+    },
+    "v3_1_0" : {
+        "line1" : "Fix edited name synchronisation with server",
+        "line2" : "Cacti can't hurt wolves(can be disabled)"
+    },
+    "v3_0_3" : {
+        "line1" : "Fix game crash",
+        "line2" : "Fix AI priority",
+        "line3" : "Wolves will not sit down/stand up at dog tag/fish usage",
+        "line4" : "You'll receive wolf \"death message\" at wolf death"
+    },
+    "v3_0_2" : {
+        "line1" : "Fix game crash",
+        "line2" : "Add thaumcraft aspects"
+    },
+    "v3_0_0" : {
+        "line1" : "Reworked for forge.",
+        "line2" : "Reworked dog tags so it give name to pets like \"vanilla\" name tags do.",
+        "line3" : "Dog tag can be used on cats and \"vanilla\" wolves too.",
+        "line4" : "Dog treat can be used to transform tamed \"vanilla\" wolf to Sophisticated wolf",
+        "line5" : "Add Russian localization."
+    }
+}

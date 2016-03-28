@@ -1,0 +1,15 @@
+{
+    "header_forum" : "Раздел о моде на Minecraft форуме",
+    "header_patreon" : "Поддержи меня в Patreon",
+    "header_twitter" : "Подпишись на меня",
+    "header_github" : "Исходный код",
+
+    "menu_download" : "Скачать",
+    "menu_about" : "О моде",
+    "menu_review" : "Обзоры",
+    "menu_changelog" : "Изменения",
+    "menu_faq" : "Вопросы",
+    "menu_credits" : "Разработчики",
+
+    "footer" : "Этот мод распространяется под "
+}

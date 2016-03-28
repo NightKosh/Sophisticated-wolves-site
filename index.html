@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Sophisticated Wolves</title>
+
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+    <meta name="keywords" content=""/>
+    <meta name="description" content="Sophisticated Wolves"/>
+
+    <link href="css/reset.css" rel="stylesheet" type="text/css"/>
+
+    <link href="css/libs/bootstrap.min.css" rel="stylesheet">
+    <link href="css/libs/angular-bootstrap-lightbox.min.css" rel="stylesheet">
+
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+
+    <script src="js/libs/jquery-2.1.3.min.js"></script>
+
+    <script src="js/libs/angular.min.js"></script>
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="js/libs/angular-youtube-embed.js"></script>
+
+    <script src="js/libs/ui-bootstrap-tpls.js"></script>
+    <script src="js/libs/angular-bootstrap-lightbox.min.js"></script>
+
+    <script src="js/application.js"></script>
+    <script src="js/global.js"></script>
+    <script src="js/download.js"></script>
+    <script src="js/about.js"></script>
+    <script src="js/review.js"></script>
+    <script src="js/changelog.js"></script>
+    <script src="js/faq.js"></script>
+    <script src="js/credits.js"></script>
+</head>
+<body ng-app="app" ng-controller="GlobalPageCtrl">
+<div id="wrapper">
+    <div id="header">
+        <div id="header_title">
+            <h1>
+                <a ng-href="{{globalData.titleLink}}" target="_parent">Sophisticated Wolves</a>
+            </h1>
+        </div>
+        <div id="header_content">
+            <div id="lang_bar">
+                <a id="en_link" ng-href="{{globalData.enLink}}"></a>
+                <a id="ru_link" ng-href="{{globalData.ruLink}}"></a>
+            </div>
+
+            <ul>
+                <li><a class="forum" title="{{globalData.header_forum}}" target="_blank"
+                       href="http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1288717"></a></li>
+                <li><a class="twitter" title="{{globalData.header_twitter}}" target="_blank"
+                       href="https://twitter.com/NightKosh"></a></li>
+                <li><a class="github" title="{{globalData.header_github}}" target="_blank"
+                       href="https://github.com/NightKosh/Sophisticated-wolves"></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="menu">
+        <ul>
+            <li><a ng-href="{{globalData.menuDownloadLink}}">{{globalData.menu_download}}</a></li>
+            <li><a ng-href="{{globalData.menuAboutLink}}">{{globalData.menu_about}}</a></li>
+            <li><a ng-href="{{globalData.menuReviewLink}}">{{globalData.menu_review}}</a></li>
+            <li><a ng-href="{{globalData.menuChangelogLink}}">{{globalData.menu_changelog}}</a></li>
+            <li><a ng-href="{{globalData.menuFaqLink}}">{{globalData.menu_faq}}</a></li>
+            <li><a ng-href="{{globalData.menuCreditsLink}}">{{globalData.menu_credits}}</a></li>
+        </ul>
+    </div>
+
+    <div id="content_wrapper">
+        <div id="content" ng-include="contentTemplatePath"></div>
+
+        <div id="sub_menu">
+            <div ng-include="subMenuTemplatePath">
+
+            </div>
+            <a class="twitter-timeline" href="https://twitter.com/NightKosh"
+               data-widget-id="714448908584423425">Твиты от @NightKosh</a>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div>
+            <p>
+                <span>{{globalData.footer}}</span>
+                <a href="http://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License">GPLv3</a>.
+            </p>
+        </div>
+    </div>
+</div>
+<script>!function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+    if (!d.getElementById(id)) {
+        js = d.createElement(s);
+        js.id = id;
+        js.src = p + "://platform.twitter.com/widgets.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }
+}(document, "script", "twitter-wjs");</script>
+</body>
+</html>

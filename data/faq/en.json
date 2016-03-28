@@ -1,0 +1,17 @@
+{
+    "page_title" : "FAQ",
+    "question_1" : "My game crashes/doesn't work/works incorrectly.",
+    "answer_1" : "First make sure you have the latest version of the mod - this problem already may be fixed. Otherwise give me to know about this problem - create \"issue\" on the bug tracker page or on mod's minecraft forum thread. Describe your problem in details, and ways how it can be reproduced, and post crash log please. All this information can reduce required time to fix this problem.",
+    
+    "question_2" : "Can you add support for another mod.",
+    "answer_2" : "Sure, but unfortunately I can't guaranty you anything. It's depended on how this mod works and responsiveness of its developers.",
+
+    "question_3" : "This mod didn't translated on your language.",
+    "answer_3" : "Unfortunately I don't know your language, so I can't do it. But you can do it - just translate any of localizations files on your language and give it to me.",
+
+    "question_4" : "I have an idea/request.",
+    "answer_4" : "I open to any ideas and requests. Describe your idea/request on minecraft forum mod thread and may be it will be implemented.",
+
+    "question_5" : "Can I use this mod in my mod pack/server.",
+    "answer_5" : "For sure, you can do it. But please provide link on this site or on a mod thread at minecraft forum . This is not strongly required but very desirable as a way to provide users information/support about this mod(if it will be required)."
+}

@@ -1,0 +1,33 @@
+{
+    "pageTitle": "Credits",
+    "metroidfood": "creator of The Sophisticated Wolves mod",
+    "nightkosh": "developer of The Sophisticated Wolves mod now",
+
+    "code" : {
+        "title": "Code",
+        "raustBlackDragon" : "help with fixing wolf breeding"
+    },
+
+    "textures" : {
+        "title": "Textures"
+    },
+
+    "localization" : {
+        "title": "Localization"
+    },
+
+    "texturepack" : {
+        "title": "Texture packs"
+    },
+
+    "another" : {
+        "title": "Another",
+        "adaptivity": "some fixes and improvents."
+    },
+
+    "donate" : {
+        "title": "Special thanks to those who give me a donation"
+    },
+
+    "creditsForgot": "I'm greatly apologise If I forgot to mention you. Please inform me about it and I'll update this list shortly."
+}

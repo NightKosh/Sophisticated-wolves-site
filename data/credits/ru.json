@@ -1,0 +1,33 @@
+{
+    "pageTitle": "Разработчики",
+    "metroidfood": "создатель мода Sophisticated Wolves",
+    "nightkosh": "поддерживает и дорабатывает мод Sophisticated Wolves на данный момент",
+
+    "code" : {
+        "title": "Код",
+        "raustBlackDragon" : "help with fixing wolf breeding"
+    },
+
+    "textures" : {
+        "title": "Текстуры"
+    },
+
+    "localization" : {
+        "title": "Локализация"
+    },
+
+    "texturepack" : {
+        "title": "Текстурпаки"
+    },
+
+    "another" : {
+        "title": "Другое",
+        "adaptivity": "различные фиксы и исправления."
+    },
+
+    "donate" : {
+        "title": "Так же хотелось бы поблагодарить тех, кто оказал мне финансовую поддержку"
+    },
+
+    "creditsForgot": "Если я забыл упомянуть вас, пожалуйста сообщите мне об этом и я обновлю этот список в ближайшее время."
+}

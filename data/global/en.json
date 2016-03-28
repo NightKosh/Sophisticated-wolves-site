@@ -1,0 +1,15 @@
+{
+    "header_forum" : "Mod thread on Minecraft forum",
+    "header_patreon" : "Support me on Patreon",
+    "header_twitter" : "Follow me on Twitter",
+    "header_github" : "Mod sources",
+
+    "menu_download" : "Download",
+    "menu_about" : "About mod",
+    "menu_review" : "Reviews",
+    "menu_changelog" : "Change log",
+    "menu_faq" : "FAQ",
+    "menu_credits" : "Credits",
+
+    "footer" : "This mod released under the "
+}
