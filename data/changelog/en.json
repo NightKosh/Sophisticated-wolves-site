@@ -44,5 +44,11 @@
         "line3" : "Dog tag can be used on cats and \"vanilla\" wolves too.",
         "line4" : "Dog treat can be used to transform tamed \"vanilla\" wolf to Sophisticated wolf",
         "line5" : "Add Russian localization."
+    },
+    "old" : {
+        "title" : "Previous versions",
+        "line1" : "For list of changes in older versions visit",
+        "link"  : "\"metroidfood's\" mod page",
+        "line2" : "at Minecraft forum."
     }
 }
