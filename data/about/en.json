@@ -1,7 +1,10 @@
 {
     "title" : "About mod",
     "line1" : "What is Sophisticated Wolves? It's a mod that aims to improve wolves in the games through a series of gameplay tweaks, AI improvements, and added features. The focus is not to have overpowered items or crazy abilities, but rather balanced additions that make sense in the world of MC. Essentially, wolves should be able to better respond to your actions and take care of themselves, so you don't have to consider them a liability when mining, exploring or fighting.",
-    "line2" : "This is an updated and reworked version of metroidfood's \"Sophisticated Wolves\" mod.",
+    "line2" : "This is an updated and reworked version of metroidfood's \"Sophisticated Wolves\" mod. Mostly it is the same as metroidfood's version except some new features and improvements.",
+    "line3" : "In this version \"Sophisticated wolves\" are an own type of wolves, which spawned separately from \"vanilla\" wolves. You can find them in the world or make your tamed \"vanilla\" wolves sophisticated. Your tamed \"vanilla\" wolves will become sophisticated if you give them a \"dog treat\".",
+    "line4" : "Like in an \"original\" version you can used name tags to give your wolf a name, but in this version, you can used it to give name to a cat and \"vanilla\" wolf too.",
+    "line5" : "Furthermore this version of the mod must be compatible with such mods as Mo' Creatures.",
     "nametags" : {
         "title" : "Nametags",
         "line1" : "One of the most oft-requested features, names to differentiate between your pets. Craft a leather Dog Tag and you'll be able to give your pet a proper title (16 chars max). They behave like normal player nametags when standing but are not visible through walls when sitting.",
@@ -15,14 +18,34 @@
         "title" : "Biome-Specific Wolves",
         "line1" : "Wolves' appearance will vary depending on the biome they spawn in. Taiga wolves are the classic gray, while forest wolves are light brown. You can also find black and dark brown wolves, but these colors are harder to find than their lighter counterparts."
     },
+    "creeper" : {
+        "title" : "Creeper Avoidance",
+        "line1" : "Wolves are loyal, not stupid. If they see a Creeper about to explode they'll scatter regardless of what you're doing.",
+        "line2" : "Furthermore wolves will try to hold distance of 3 blocks from creepers(in any state)."
+    },
+    "evil" : {
+        "title" : "Evil Detecting Dogs",
+        "line1" : "Though they won't attack Creepers, wolves will growl to alert you if one is nearby."
+    },
     "extinguishing" : {
         "title" : "Extinguishing",
         "line1" : "Tired of your wolves burning to death? So are they. If they happen to catch on fire, they'll stop and shake to put themselves out."
     },
-    "creeper" : {
-        "title" : "Creeper Avoidance",
-        "line1" : "Wolves are loyal, not stupid. If they see a Creeper about to explode they'll scatter regardless of what you're doing.",
-        "line2" : "TODO"
+    "waterproof" : {
+        "title" : "Waterproof Wolves",
+        "line1" : "No more death of water! Drowning wolves will be teleported to its owner."
+    },
+    "cacti" : {
+        "title" : "Cactiproof Wolves",
+        "line1" : "Cacti can't hurt wolves anymore(can be disabled)"
+    },
+    "collision" : {
+        "title" : "Better collision",
+        "line1" : "Wolves can't collide with each other so they will not be doomed to fall (in a lava or from a cliff) by each other anymore."
+    },
+    "friendlyFire" : {
+        "title" : "Friendly fire",
+        "line1" : "Wolves can be hit by its owner only when owner is sneaking.(It will protect wolves from accidental hit)"
     },
     "respanw" : {
         "title" : "Respawning Wolves",
@@ -40,13 +63,13 @@
         "title" : "Peace of Mining",
         "line1" : "Wolves will no longer wander around and bump into you when you're mining or on a ladder, instead they'll wait patiently for you to finish (unless you're being attacked by monsters of course)."
     },
-    "evil" : {
-        "title" : "Evil Detecting Dogs",
-        "line1" : "Though they won't attack Creepers, wolves will growl to alert you if one is nearby."
+    "death" : {
+        "title" : "Death message",
+        "line1" : "You'll receive wolf \"death message\" at its death."
     },
     "tweak" : {
         "title" : "Tweakable",
-        "line1" : "Want to use a texture pack instead of biome-specific wolves? Don't like wild wolves despawning? Want to set breeding back to default? Change it in the config file, located in your .minecraft/config folder. You can also change the ID numbers of the items if you run into a conflict with other mods."
+        "line1" : "Want to use a texture pack instead of biome-specific wolves? Don't like wild wolves despawning? Want to set breeding back to default? Change it in the config file, located in your .minecraft/config folder."
     },
     "miscellaneous" : {
         "title" : "Miscellaneous Improvements",

@@ -2,8 +2,10 @@
     <h2>{{about.title}}</h2>
 
     <p>{{about.line1}}</p>
-
     <p>{{about.line2}}</p>
+    <p>{{about.line3}}</p>
+    <p>{{about.line4}}</p>
+    <p>{{about.line5}}</p>
 
     <h3>{{about.nametags.title}}</h3>
     <p>{{about.nametags.line1}}</p>
@@ -35,16 +37,6 @@
         </li>
     </ul>
 
-    <h3>{{about.extinguishing.title}}</h3>
-    <p>{{about.extinguishing.line1}}</p>
-
-    <ul class="gallery">
-        <li ng-repeat="image in about.extinguishingImg">
-            <a ng-click="openLightboxModal(about.extinguishingImg, $index)"
-               style="background-image: url('{{image.thumbUrl}}');"></a>
-        </li>
-    </ul>
-
     <h3>{{about.creeper.title}}</h3>
     <p>{{about.creeper.line1}}</p>
     <p>{{about.creeper.line2}}</p>
@@ -56,6 +48,34 @@
         </li>
     </ul>
 
+    <h3>{{about.evil.title}}</h3>
+    <p>{{about.evil.line1}}</p>
+
+    <h3>{{about.extinguishing.title}}</h3>
+    <p>{{about.extinguishing.line1}}</p>
+
+    <ul class="gallery">
+        <li ng-repeat="image in about.extinguishingImg">
+            <a ng-click="openLightboxModal(about.extinguishingImg, $index)"
+               style="background-image: url('{{image.thumbUrl}}');"></a>
+        </li>
+    </ul>
+
+    <h3>{{about.waterproof.title}}</h3>
+    <p>{{about.waterproof.line1}}</p>
+
+    <h3>{{about.cacti.title}}</h3>
+    <p>{{about.cacti.line1}}</p>
+
+    <h3>{{about.collision.title}}</h3>
+    <p>{{about.collision.line1}}</p>
+
+    <h3>{{about.friendlyFire.title}}</h3>
+    <p>{{about.friendlyFire.line1}}</p>
+
+    <h3>{{about.respanw.title}}</h3>
+    <p>{{about.respanw.line1}}</p>
+
     <h3>{{about.feeding.title}}</h3>
     <p>{{about.feeding.line1}}</p>
 
@@ -65,8 +85,8 @@
     <h3>{{about.mining.title}}</h3>
     <p>{{about.mining.line1}}</p>
 
-    <h3>{{about.evil.title}}</h3>
-    <p>{{about.evil.line1}}</p>
+    <h3>{{about.death.title}}</h3>
+    <p>{{about.death.line1}}</p>
 
     <h3>{{about.tweak.title}}</h3>
     <p>{{about.tweak.line1}}</p>
