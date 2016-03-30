@@ -1,5 +1,14 @@
 {
     "title" : "Change Log",
+    "v3_6_1" : {
+        "line1" : "Updated for Minecraft 1.9",
+        "line2" : "Eggs for every type of dogs",
+        "line3" : "Dog treat can be made of any type of meat",
+        "line4" : "Amount of crafted dog treats increased to 2"
+    },
+    "v3_6_0" : {
+        "line1" : "Some compatibility problems with SecurityCraft was fixed"
+    },
     "v3_5_0" : {
         "line1" : "Fix server crash",
         "line2" : "Fix game crash at sneaking",
