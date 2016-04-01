@@ -2,7 +2,7 @@
 <div ng-controller="DownloadCtrl">
     <h2>{{download.page_title}}</h2>
 
-    <iframe id="download_widget" src="http://widget.mcf.li/mc-mods/minecraft/220495-sophisticated-wolves"></iframe>
+    <iframe class="download_widget" src="http://widget.mcf.li/mc-mods/minecraft/220495-sophisticated-wolves"></iframe>
 
     <h3>{{download.installation_title}}</h3>
     <ul>
@@ -12,4 +12,8 @@
         </li>
         <li>{{download.installation_line2}}</li>
     </ul>
+
+    <h3>{{download.texturepack_title}}</h3>
+    <iframe class="download_widget" id ="refurins_textures"
+            src="https://widget.mcf.li/texture-packs/minecraft/243484-refurins-32x-items-textures-for-sophisticated?version="></iframe>
 </div>

@@ -3,5 +3,7 @@
     
     "installation_title" : "Installation",
     "installation_line1" : "Download and install",
-    "installation_line2" : "Place jar file for this mod into your 'mods' folder"
+    "installation_line2" : "Place jar file for this mod into your 'mods' folder",
+
+    "texturepack_title" : "Texture Packs"
 }

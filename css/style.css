@@ -265,9 +265,12 @@ h4 {
   cursor: pointer;
   position: relative;
 }
-#content_wrapper #content #download_widget {
+#content_wrapper #content .download_widget {
   width: 100%;
   border: none;
+}
+#content_wrapper #content #refurins_textures {
+    width: 720px;
 }
 #content_wrapper #sub_menu {
   float: right;

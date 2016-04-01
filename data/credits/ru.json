@@ -5,7 +5,7 @@
 
     "code" : {
         "title": "Код",
-        "raustBlackDragon" : "help with fixing wolf breeding"
+        "raustBlackDragon" : "помощь в исправлении размножения волков"
     },
 
     "textures" : {
@@ -17,7 +17,8 @@
     },
 
     "texturepack" : {
-        "title": "Текстурпаки"
+        "title": "Текстурпаки",
+        "refurin" : "32х пиксельный текстурпак иконок предметов"
     },
 
     "another" : {
