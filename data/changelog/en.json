@@ -1,5 +1,15 @@
 {
     "title" : "Change Log",
+    "v3_6_4" : {
+        "line1" : "Updated for Minecraft 1.11",
+        "line2" : "Fix server crash"
+    },
+    "v3_6_3" : {
+        "line1" : "Updated for Minecraft 1.10"
+    },
+    "v3_6_2" : {
+        "line1" : "Fix server crash"
+    },
     "v3_6_1" : {
         "line1" : "Updated for Minecraft 1.9",
         "line2" : "Eggs for every type of dogs",
