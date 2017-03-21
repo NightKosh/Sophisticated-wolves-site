@@ -151,6 +151,12 @@ header #header_content ul li a.github {
 header #header_content ul li a.github:hover {
   background-position: -210px -70px;
 }
+header #header_content ul li a.nightkosh {
+  background-position: -280px 0;
+}
+header #header_content ul li a.nightkosh:hover {
+  background-position: -280px -70px;
+}
 header #lang_bar {
   float: right;
   height: 64px;
