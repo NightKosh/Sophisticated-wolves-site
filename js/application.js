@@ -1,8 +1,14 @@
-
 var app = angular.module("app", ['youtube-embed', 'bootstrapLightbox']);
 
-app.service('PageService', function() {
+app.service('PageService', function () {
+    var DEFAULT_PARAMS = {
+        page: "download",
+        lang: "en"
+    };
+
     var getJsonFromUrl = function (result) {
+        var result = {};
+        Object.assign(result, DEFAULT_PARAMS);
         var query = location.search.substr(1);
         query.split("&").forEach(function (part) {
             var item = part.split("=");
@@ -10,22 +16,14 @@ app.service('PageService', function() {
                 result[item[0]] = decodeURIComponent(item[1]);
             }
         });
+
         return result;
     };
-
-    var DEFAULT_PARAMS = {
-        page: "download",
-        lang: "en"
-    };
-    var pageParams = getJsonFromUrl(DEFAULT_PARAMS);
+    var pageParams = getJsonFromUrl(pageParams);
 
     this.getLinkWithLangParams = function (link) {
-        if (pageParams.lang != "en") {
-            if (link.indexOf("?") == -1) {
-                link += "?";
-            } else {
-                link += "&";
-            }
+        if (pageParams.lang != DEFAULT_PARAMS.lang) {
+            link += (link.indexOf("?") == -1) ? "?" : "&";
             link += "lang=" + pageParams.lang;
         }
         return link;
@@ -49,44 +47,41 @@ app.service('PageService', function() {
                 }
             }
         }
-        if (lang != "en") {
+        if (lang != DEFAULT_PARAMS.lang) {
             if (str.length != 0) {
                 str += "&";
             }
             str += "lang=" + lang;
         }
-        if (str.length != 0) {
-            str = "/?" + str;
-        } else {
-            str = "/";
-        }
-
-        return str;
+        return (str.length != 0) ? "/?" + str : "/";
     };
 
-    this.getTemplatePath = function() {
-        var template = "template/" + pageParams.page + "/";
-        if (pageParams.sub_page) {
-            template += pageParams.sub_page;
-        } else {
-            template += "index";
-        }
-        return template + ".html";
+    this.getTemplatePath = function () {
+        return "template/" +
+            ((pageParams.page) ? pageParams.page : DEFAULT_PARAMS.page) +
+            "/" +
+            ((pageParams.sub_page) ? pageParams.sub_page : "index") +
+            ".html";
     };
 
-    this.getSubMenuTemplatePath = function() {
-        return "template/" + pageParams.page + "/submenu.html";
+    this.getSubMenuTemplatePath = function () {
+        return "template/" +
+            ((pageParams.page) ? pageParams.page : DEFAULT_PARAMS.page) +
+            "/submenu.html";
     };
 
-    this.getDataPath = function() {
-        var data = "data/" + pageParams.page + "/";
-        if (pageParams.sub_page) {
-            data += pageParams.sub_page + "_";
-        }
-        return data + pageParams.lang + ".json";
+    this.getDataPath = function () {
+        return "data/" +
+            ((pageParams.page) ? pageParams.page : DEFAULT_PARAMS.page) +
+            "/" +
+            ((pageParams.sub_page) ? pageParams.sub_page + "_" : "") +
+            pageParams.lang + ".json";
     };
 
-    this.getSubMenuDataPath = function() {
-        return "data/" + pageParams.page + "/submenu_" + pageParams.lang + ".json";
+    this.getSubMenuDataPath = function () {
+        return "data/" +
+            ((pageParams.page) ? pageParams.page : DEFAULT_PARAMS.page) +
+            "/submenu_" + pageParams.lang + ".json";
     };
 });
+
