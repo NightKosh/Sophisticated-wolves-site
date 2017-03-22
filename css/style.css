@@ -1,18 +1,16 @@
-html {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-}
+html,
 body {
   margin: 0;
   padding: 0;
+  min-height: 100%;
+  width: 100%;
+  min-width: 980px;
   line-height: 1.5em;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 16px;
   color: #373f51;
   background: url("../images/background.jpg") no-repeat center center / cover;
   background-attachment: fixed;
-  min-height: 100%;
 }
 a {
   color: #337ab7;
@@ -81,6 +79,7 @@ h4 {
 }
 header {
   width: 100%;
+  min-width: 980px;
   overflow: hidden;
 }
 header #header_title {
@@ -126,36 +125,23 @@ header #header_content ul li a {
   height: 70px;
   background-image: url("../images/links_sprite.png");
   background-repeat: no-repeat;
+  background-position-x: 0;
+  background-position-y: 0;
 }
-header #header_content ul li a.forum {
-  background-position: 0 0;
-}
-header #header_content ul li a.forum:hover {
-  background-position: 0 -70px;
+header #header_content ul li a:hover {
+  background-position-y: -70px;
 }
 header #header_content ul li a.patreon {
-  background-position: -70px 0;
-}
-header #header_content ul li a.patreon:hover {
-  background-position: -70px -70px;
+  background-position-x: -70px;
 }
 header #header_content ul li a.twitter {
-  background-position: -140px 0;
-}
-header #header_content ul li a.twitter:hover {
-  background-position: -140px -70px;
+  background-position-x: -140px;
 }
 header #header_content ul li a.github {
-  background-position: -210px 0;
-}
-header #header_content ul li a.github:hover {
-  background-position: -210px -70px;
+  background-position-x: -210px;
 }
 header #header_content ul li a.nightkosh {
-  background-position: -280px 0;
-}
-header #header_content ul li a.nightkosh:hover {
-  background-position: -280px -70px;
+  background-position-x: -280px;
 }
 header #lang_bar {
   float: right;
@@ -178,6 +164,7 @@ header #lang_bar a#ru_link {
 }
 #menu {
   width: 100%;
+  min-width: 980px;
   padding: 15px 0;
   margin: 25px 0;
   background: #ffffff;
@@ -204,6 +191,7 @@ header #lang_bar a#ru_link {
 }
 #content_wrapper {
   width: 100%;
+  min-width: 980px;
   padding: 20px 60px;
   z-index: 10;
   position: relative;
@@ -290,6 +278,7 @@ header #lang_bar a#ru_link {
 }
 footer {
   width: 100%;
+  min-width: 980px;
   margin: 25px auto;
   background: #ffffff;
   border: 2px solid #373f51;

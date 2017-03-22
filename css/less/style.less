@@ -3,24 +3,19 @@
 @text_color: #373f51;
 @menu_links_color: #337ab7;
 @links_color: #337ab7;
-@font-family: Georgia, "Times New Roman", Times, serif;
 
-html {
+html, body {
   margin: 0;
   padding: 0;
-  height: 100%;
-}
-
-body {
-  margin: 0;
-  padding: 0;
+  min-height: 100%;
+  width: 100%;
+  min-width: 980px;
   line-height: 1.5em;
-  font-family: @font-family;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 16px;
   color: @text_color;
   background: url("../images/background.jpg") no-repeat center center / cover;
   background-attachment: fixed;
-  min-height: 100%;
 }
 
 a {
@@ -92,6 +87,7 @@ h2, h3, h4 {
 
 header {
   width: 100%;
+  min-width: 980px;
   overflow: hidden;
 
   #header_title {
@@ -135,35 +131,24 @@ header {
           height: 70px;
           background-image: url("../images/links_sprite.png");
           background-repeat: no-repeat;
+          background-position-x: 0;
+          background-position-y: 0;
+          &:hover {
+            background-position-y: -70px;
+          }
           &.forum {
-            background-position: 0 0;
-            &:hover {
-              background-position: 0 -70px;
-            }
           }
           &.patreon {
-            background-position: -70px 0;
-            &:hover {
-              background-position: -70px -70px;
-            }
+            background-position-x: -70px;
           }
           &.twitter {
-            background-position: -140px 0;
-            &:hover {
-              background-position: -140px -70px;
-            }
+            background-position-x: -140px;
           }
           &.github {
-            background-position: -210px 0;
-            &:hover {
-              background-position: -210px -70px;
-            }
+            background-position-x: -210px;
           }
           &.nightkosh {
-            background-position: -280px 0;
-            &:hover {
-              background-position: -280px -70px;
-            }
+            background-position-x: -280px;
           }
         }
       }
@@ -193,6 +178,7 @@ header {
 
 #menu {
   width: 100%;
+  min-width: 980px;
   padding: 15px 0;
   margin: 25px 0;
   background: @background_color;
@@ -220,6 +206,7 @@ header {
 
 #content_wrapper {
   width: 100%;
+  min-width: 980px;
   padding: 20px 60px;
   z-index: 10;
   position: relative;
@@ -312,6 +299,7 @@ header {
 
 footer {
   width: 100%;
+  min-width: 980px;
   margin: 25px auto;
   background: @background_color;
   border: 2px solid @borders_color;
