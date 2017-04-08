@@ -1,0 +1,59 @@
+.gallery {
+  overflow: hidden;
+  width: 100%;
+  min-height: 100px;
+  border: 1px solid #373f51;
+  border-radius: 5px;
+  padding: 7px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.gallery > ul {
+  max-height: 100px;
+  margin-bottom: 0px !important;
+  transition: max-height 0.5s ease-in-out;
+  overflow: hidden;
+}
+.gallery > ul li {
+  list-style: none !important;
+  display: inline-block;
+  height: 100px;
+  margin: 0 10px 0 0 !important;
+  width: 110px;
+}
+.gallery > ul li:nth-child(5n+0) {
+  margin: 0 !important;
+}
+.gallery > ul li a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+.gallery > span {
+  display: block;
+  width: 57px;
+  height: 25px;
+  margin: 8px auto 0px;
+  cursor: pointer;
+  background-image: url('../../images/libs/arrows.png');
+  background-position-x: center;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+  transition-property: background-position-y;
+  transition-duration: 0s;
+  transition-delay: 0.5s;
+}
+.gallery.expanded > ul {
+  max-height: 5000px;
+  transition: max-height 0.5s ease-in-out;
+}
+.gallery.expanded > span {
+  background-position-y: top;
+  transition-property: background-position-y;
+  transition-duration: 0s;
+  transition-delay: 0.5s;
+}

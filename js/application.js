@@ -1,4 +1,4 @@
-var app = angular.module("app", ['youtube-embed', 'bootstrapLightbox']);
+var app = angular.module("app", ['youtube-embed', 'bootstrapLightbox', 'nk-gallery']);
 
 app.service('PageService', function () {
     var DEFAULT_PARAMS = {
@@ -87,5 +87,9 @@ app.service('PageService', function () {
             ((pageParams.page) ? pageParams.page : DEFAULT_PARAMS.page) +
             "/submenu_" + pageParams.lang + ".json";
     };
+});
+
+app.config(function (LightboxProvider) {
+    LightboxProvider.templateUrl = 'template/libs/lightbox.html';
 });
 

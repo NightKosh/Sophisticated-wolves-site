@@ -1,0 +1,9 @@
+
+<div class="gallery" ng-class="galleryClass">
+	<ul>
+		<li ng-repeat="image in images">
+			<a ng-click="openImage($index)" style="background-image: url('{{thumbImages[$index]}}');"></a>
+		</li>
+	</ul>
+	<span ng-click="expand()" ng-show="showArrow"></span>
+</div>
