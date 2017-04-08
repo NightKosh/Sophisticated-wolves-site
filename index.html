@@ -24,14 +24,17 @@
     <script src="js/libs/ui-bootstrap-tpls.js"></script>
     <script src="js/libs/angular-bootstrap-lightbox.min.js"></script>
 
-    <script src="js/application.js"></script>
-    <script src="js/global.js"></script>
-    <script src="js/download.js"></script>
-    <script src="js/about.js"></script>
-    <script src="js/review.js"></script>
-    <script src="js/changelog.js"></script>
-    <script src="js/faq.js"></script>
-    <script src="js/credits.js"></script>
+    <script>
+        var version = "1.0.0";
+    </script>
+    <script src="js/application.js?v=1.0.0"></script>
+    <script src="js/global.js?v=1.0.0"></script>
+    <script src="js/download.js?v=1.0.0"></script>
+    <script src="js/about.js?v=1.0.0"></script>
+    <script src="js/review.js?v=1.0.0"></script>
+    <script src="js/changelog.js?v=1.0.0"></script>
+    <script src="js/faq.js?v=1.0.0"></script>
+    <script src="js/credits.js?v=1.0.0"></script>
 </head>
 <body ng-app="app" ng-controller="GlobalPageCtrl">
 <div id="wrapper">
@@ -61,17 +64,17 @@
     </header>
 
     <div id="menu">
-        <ul>
+        <menu>
             <li><a ng-href="{{globalData.menuDownloadLink}}">{{globalData.menu_download}}</a></li>
             <li><a ng-href="{{globalData.menuAboutLink}}">{{globalData.menu_about}}</a></li>
             <li><a ng-href="{{globalData.menuReviewLink}}">{{globalData.menu_review}}</a></li>
             <li><a ng-href="{{globalData.menuChangelogLink}}">{{globalData.menu_changelog}}</a></li>
             <li><a ng-href="{{globalData.menuFaqLink}}">{{globalData.menu_faq}}</a></li>
             <li><a ng-href="{{globalData.menuCreditsLink}}">{{globalData.menu_credits}}</a></li>
-        </ul>
+        </menu>
     </div>
 
-    <div id="content_wrapper">
+    <main>
         <div id="content" ng-include="contentTemplatePath"></div>
 
         <div id="sub_menu">
@@ -81,7 +84,7 @@
             <a class="twitter-timeline" href="https://twitter.com/NightKosh"
                data-widget-id="714448908584423425">Твиты от @NightKosh</a>
         </div>
-    </div>
+    </main>
 
     <footer>
         <div>

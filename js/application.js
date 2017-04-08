@@ -6,9 +6,8 @@ app.service('PageService', function () {
         lang: "en"
     };
 
-    var getJsonFromUrl = function (result) {
+    var getJsonFromUrl = function () {
         var result = {};
-        Object.assign(result, DEFAULT_PARAMS);
         var query = location.search.substr(1);
         query.split("&").forEach(function (part) {
             var item = part.split("=");
@@ -17,9 +16,14 @@ app.service('PageService', function () {
             }
         });
 
+        for (var key in DEFAULT_PARAMS) {
+            if (!result.hasOwnProperty(key)) {
+                result[key] = DEFAULT_PARAMS[key];
+            }
+        }
         return result;
     };
-    var pageParams = getJsonFromUrl(pageParams);
+    var pageParams = getJsonFromUrl();
 
     this.getLinkWithLangParams = function (link) {
         if (pageParams.lang != DEFAULT_PARAMS.lang) {
