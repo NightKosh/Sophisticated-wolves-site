@@ -50,7 +50,7 @@
     "respanw" : {
         "title" : "Respawning Wolves",
         "line1" : "Like ocelots, wolves will spawn sporadically in Taiga and Forest biomes and only become persistent when tamed. This also means they won't stick around if you wander off so be sure to bring bones with you if you're looking for wolves!",
-        "line1" : "But you can change it configuration file - set \"RespawningWolves\" to \"false\". It will prevent untamed wolves despawn, but, at the same time new \"wild\" sophisticated wolves will not spawn again."
+        "line2" : "But you can change it configuration file - set \"RespawningWolves\" to \"false\". It will prevent untamed wolves despawn, but, at the same time new \"wild\" sophisticated wolves will not spawn again."
     },
     "feeding" : {
         "title" : "Feeding",
