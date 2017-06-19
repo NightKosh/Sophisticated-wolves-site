@@ -41,6 +41,13 @@ app.controller("AboutCtrl", ['$scope', '$http', 'PageService', function ($scope,
                 path: "images/img/extinguishing/",
                 thumb: false
             };
+            $scope.about.feedingImg = {
+                images: [
+                    'bowls.png', 'recipe.png'
+                ],
+                path: "images/img/feeding/",
+                thumb: true
+            };
         });
     }
 }]);

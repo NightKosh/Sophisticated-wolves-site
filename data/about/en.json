@@ -54,7 +54,9 @@
     },
     "feeding" : {
         "title" : "Feeding",
-        "line1" : "Wolves will now also gobble down fish and gain the max amount of health whether their meat is cooked or raw. In addition, they will no longer wander around while begging, so you don't have to chase them down trying to feed them."
+        "line1" : "Wolves will now also gobble down fish and gain the max amount of health whether their meat is cooked or raw. In addition, they will no longer wander around while begging, so you don't have to chase them down trying to feed them.",
+        "line2" : "Furthermore wolves become more self-sustained - they will search all around for any acceptable food and eat it from the ground to heal itself.",
+        "line3" : "Another improvement in dogs feeding is - Dog Bowls. Instead of giving wolves food from hands all the time they were damaged - just craft Dog Bowl, place it somewhere in the house and fill it with food, so wolves can feeds itself when it needed."
     },
     "canceling" : {
         "title" : "Attack Pausing/Canceling",
