@@ -58,9 +58,14 @@
         "line2" : "Furthermore wolves become more self-sustained - they will search all around for any acceptable food and eat it from the ground to heal itself.",
         "line3" : "Another improvement in dogs feeding is - Dog Bowls. Instead of giving wolves food from hands all the time they were damaged - just craft Dog Bowl, place it somewhere in the house and fill it with food, so wolves can feeds itself when it needed."
     },
+    "transporting" : {
+        "title" : "Pet Carriers",
+        "line1" : "This small but incredibly handy item can be used to transporting your dogs and even some another small pets and animals(cats, chickens and rabbits) in your inventory. Furthermore it can be used to change owner of the pet."
+    },
     "canceling" : {
         "title" : "Attack Pausing/Canceling",
-        "line1" : "Crouching with Shift will make any wolves currently attacking a creature stand still and stop attacking. Holding down Shift for around 5 seconds will cancel their attack entirely, so they don't slaughter your flock of sheep because you accidentally punched them. Wolves will also lose interest in a target if you're far enough away from it when they teleport to you."
+        "line1" : "Crouching with Shift will make any wolves currently attacking a creature stand still and stop attacking. Holding down Shift for around 5 seconds will cancel their attack entirely, so they don't slaughter your flock of sheep because you accidentally punched them. Wolves will also lose interest in a target if you're far enough away from it when they teleport to you.",
+        "line2" : "To make wolves more controllable you can craft Dog Whistle. It summons all walking wolves in range of 35 blocks to its owner and discard all their tasks at usage. If you'll sneaking at its usage it summons sitting dogs too."
     },
     "sheep" : {
         "title" : "Sheep farm protection",
