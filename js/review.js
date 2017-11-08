@@ -8,6 +8,9 @@ app.controller("ReviewCtrl", ['$scope', '$http', 'PageService', function ($scope
             $scope.review.video = {
                 en: [
                     {
+                        url: "5RDQ4MjQynU"
+                    },
+                    {
                         url: "P1rHoTzFZJ4"
                     },
                     {
