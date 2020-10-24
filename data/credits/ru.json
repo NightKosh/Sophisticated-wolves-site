@@ -13,8 +13,23 @@
         "title": "Текстуры"
     },
 
+    "sound" : {
+        "title": "Звуки",
+        "seidhepriest_whistle": "короткий свист",
+        "joedeshon_whistle": "длинный свист"
+    },
+
     "localization" : {
-        "title": "Локализация"
+        "title": "Локализация",
+        "translation": {
+            "german": "немецкий перевод",
+            "french": "французский перевод",
+            "italian": "итальянский перевод",
+            "spanish": "испанский перевод",
+            "indonesian": "индонезийский перевод",
+            "tChinese": "традиционный китайский перевод",
+            "sChinese": "упрощённый Китайский перевод"
+        }
     },
 
     "texturepack" : {

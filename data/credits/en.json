@@ -1,7 +1,7 @@
 {
     "pageTitle": "Credits",
     "metroidfood": "creator of The Sophisticated Wolves mod",
-    "nightkosh": "developer of The Sophisticated Wolves mod now",
+    "nightkosh": "developer of The Sophisticated Wolves mod",
 
     "code" : {
         "title": "Code",
@@ -13,8 +13,23 @@
         "title": "Textures"
     },
 
+    "sound" : {
+        "title": "Sound",
+        "seidhepriest_whistle": "short whistle sound",
+        "joedeshon_whistle": "long whistle sound"
+    },
+
     "localization" : {
-        "title": "Localization"
+        "title": "Localization",
+        "translation": {
+            "german": "German translation",
+            "french": "French translation",
+            "italian": "Italian translation",
+            "spanish": "Spanish translation",
+            "indonesian": "Indonesian translation",
+            "tChinese": "Traditional Chinese translation",
+            "sChinese": "Simplified Chinese translation"
+        }
     },
 
     "texturepack" : {
