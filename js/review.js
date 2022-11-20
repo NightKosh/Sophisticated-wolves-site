@@ -11,9 +11,6 @@ app.controller("ReviewCtrl", ['$scope', '$http', 'PageService', function ($scope
                         url: "5RDQ4MjQynU"
                     },
                     {
-                        url: "P1rHoTzFZJ4"
-                    },
-                    {
                         url: "pnPAxmuphVw"
                     },
                     {
