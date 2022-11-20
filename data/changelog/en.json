@@ -5,6 +5,10 @@
         "line2" : "Rework mod API",
         "line3" : "Rework and fixes for various mod's parts"
     },
+    "v3_6_5" : {
+        "line1": "Fix untamed wolves despawn(\"RespawningWolves\" option should be set to \"true\")",
+        "line2": "Prevent wolves spawn if light level higher than 5."
+    },
     "v3_6_4" : {
         "line1" : "Updated for Minecraft 1.11",
         "line2" : "Fix server crash"
