@@ -1,12 +1,13 @@
 {
     "pageTitle": "Credits",
     "metroidfood": "creator of The Sophisticated Wolves mod",
-    "nightkosh": "developer of The Sophisticated Wolves mod",
+    "nightkosh": "developer of The Sophisticated Wolves mod since 2014",
 
     "code" : {
         "title": "Code",
         "korosys" : "update for Minecraft 1.9.4",
-        "raustBlackDragon" : "help to fix wolf breeding"
+        "raustBlackDragon" : "help to fix wolf breeding",
+        "DashieDev" : "help with update for Minecraft 1.19.2, some fixes and improvements"
     },
 
     "textures" : {
@@ -27,6 +28,7 @@
             "italian": "Italian translation",
             "spanish": "Spanish translation",
             "indonesian": "Indonesian translation",
+            "vietnamese": "Vietnamese translation",
             "tChinese": "Traditional Chinese translation",
             "sChinese": "Simplified Chinese translation"
         }
@@ -39,7 +41,7 @@
 
     "another" : {
         "title": "Another",
-        "adaptivity": "some fixes and improvents."
+        "adaptivity": "some fixes and improvements."
     },
 
     "donate" : {
