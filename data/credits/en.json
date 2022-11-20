@@ -7,7 +7,9 @@
         "title": "Code",
         "korosys" : "update for Minecraft 1.9.4",
         "raustBlackDragon" : "help to fix wolf breeding",
-        "DashieDev" : "help with update for Minecraft 1.19.2, some fixes and improvements"
+        "DashieDev" : "help with update for Minecraft 1.19.2, some fixes and improvements",
+        "satyrnidae" : "fix compatibility with wolfarmor mod for Minecraft 1.12.2",
+        "CovertJaguar" : "fix whistle"
     },
 
     "textures" : {
