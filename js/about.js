@@ -5,62 +5,80 @@ app.controller("AboutCtrl", ['$scope', '$http', 'PageService', function ($scope,
         $http.get(PageService.getDataPath()).success(function (data, status, headers, config) {
             $scope.about = data;
 
+            $scope.about.zoologistImg = {
+                images: [
+                    '1.png', '2.png', 'trades_1.png', 'trades_2.png',
+                    'recipe.png'
+                ],
+                path: "images/img/zoologist/",
+                thumb: true
+            };
+
             $scope.about.nametagsImg = {
                 images: [
-                    'nametag_1.png', 'nametag_2.png', 'nametag_3.png', 'nametag_4.png',
-                    'nametag_5.png', 'nametag_6.png', 'recipe.png'
+                    '1.png', '2.png', '3.png', '4.png', '5.png', '6.png',
+                    'recipe.png'
                 ],
                 path: "images/img/nametag/",
-                thumb: false
+                thumb: true
             };
             $scope.about.breedingImg = {
                 images: [
-                    'breeding_1.png', 'breeding_2.png', 'breeding_3.png', 'breeding_4.png', 'recipe.png'
+                    '1.png', '2.png', '3.png', '4.png',
+                    'recipe_4.0.0.png',
+                    'recipe.png'
                 ],
                 path: "images/img/breeding/",
-                thumb: false
+                thumb: true
             };
             $scope.about.biomeWolvesImg = {
                 images: [
-                    'biomeWolves_1.png', 'biomeWolves_2.png', 'biomeWolves_3.png', 'biomeWolves_4.png'
+                    '1.png', '2.png', '3.png', '4.png'
                 ],
                 path: "images/img/biomeWolves/",
-                thumb: false
+                thumb: true
             };
             $scope.about.creeperImg = {
                 images: [
                     'creeper_1.png', 'creeper_2.png'
                 ],
                 path: "images/img/creeper/",
-                thumb: false
+                thumb: true
             };
             $scope.about.extinguishingImg = {
                 images: [
-                    'extinguishing_1.png', 'extinguishing_2.png'
+                    '1.png', '2.png'
                 ],
                 path: "images/img/extinguishing/",
-                thumb: false
+                thumb: true
             };
             $scope.about.feedingImg = {
                 images: [
-                    'bowls.png', 'recipe.png'
+                    'gui.png',
+                    'bowls.png',
+                    'recipe_4.0.0.png',
+                    'recipe.png'
                 ],
                 path: "images/img/feeding/",
                 thumb: true
             };
             $scope.about.transportingImg = {
                 images: [
-                    '1.png', 'recipe.png'
+                    '1.png',
+                    '2.png',
+                    'recipe_4.0.0.png',
+                    'recipe.png'
                 ],
                 path: "images/img/carrier/",
                 thumb: true
             };
             $scope.about.cancelingImg = {
                 images: [
+                    'recipe_4.0.0.png',
                     'recipe.png'
                 ],
                 path: "images/img/canceling/",
-                thumb: false
+                thumb: true
             };
         });
     }
