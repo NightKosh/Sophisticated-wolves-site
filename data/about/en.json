@@ -3,11 +3,15 @@
     "line1" : "What is Sophisticated Wolves? It's a mod that aims to improve wolves in the games through a series of gameplay tweaks, AI improvements, and added features. The focus is not to have overpowered items or crazy abilities, but rather balanced additions that make sense in the world of MC. Essentially, wolves should be able to better respond to your actions and take care of themselves, so you don't have to consider them a liability when mining, exploring or fighting.",
     "line2" : "This is an updated and reworked version of metroidfood's \"Sophisticated Wolves\" mod. Mostly it is the same as metroidfood's version except some new features and improvements.",
     "line3" : "In this version \"Sophisticated wolves\" are an own type of wolves, which spawned separately from \"vanilla\" wolves. You can find them in the world or make your tamed \"vanilla\" wolves sophisticated. Your tamed \"vanilla\" wolves will become sophisticated if you give them a \"dog treat\".",
-    "line4" : "Like in an \"original\" version you can used name tags to give your wolf a name, but in this version, you can used it to give name to a cat and \"vanilla\" wolf too.",
-    "line5" : "Furthermore this version of the mod must be compatible with such mods as Mo' Creatures.",
+    "zoologist" : {
+        "title" : "Zoologist",
+        "line1" : "Zoologist is a new villager who sells name tags, dog treats, and pet carriers with various pets: chickens, rabbits, parrots, cats and dogs, as well as exotic ocelots and foxes.",
+        "line2" : "A zoologist can be found in some villages, not far from a kennels - a small structure consisting of several dog houses with bowls and wild dogs.",
+        "line3" : "In order to make an unemployed villager to become a zoologist, just place a dog house and a bowl."
+    },
     "nametags" : {
-        "title" : "Nametags",
-        "line1" : "One of the most oft-requested features, names to differentiate between your pets. Craft a leather Dog Tag and you'll be able to give your pet a proper title (16 chars max). They behave like normal player nametags when standing but are not visible through walls when sitting.",
+        "title" : "Name tags",
+        "line1" : "One of the most oft-requested features, names to differentiate between your pets. Craft a leather Dog Tag and you'll be able to give your pet a proper name(it can be applied to any tameable pet). They behave like normal player name tags when standing but are not visible through walls when sitting.",
         "line2" : "Nameplates will also change color according to the health of your wolf. White = full health, and it gets progressively more red as a wolf's health goes down."
     },
     "breeding" : {
@@ -16,7 +20,7 @@
     },
     "biomeWolves" : {
         "title" : "Biome-Specific Wolves",
-        "line1" : "Wolves' appearance will vary depending on the biome they spawn in. Taiga wolves are the classic gray, while forest wolves are light brown. You can also find black and dark brown wolves, but these colors are harder to find than their lighter counterparts."
+        "line1" : "Wolves' appearance will vary depending on the biome they spawn in. Snowy biomes wolves are the classic gray, Taiga wolves are black, Dark Forest wolves are brown. All other wolves are light brown."
     },
     "creeper" : {
         "title" : "Creeper Avoidance",
@@ -28,8 +32,9 @@
         "line1" : "Though they won't attack Creepers, wolves will growl to alert you if one is nearby."
     },
     "extinguishing" : {
-        "title" : "Extinguishing",
-        "line1" : "Tired of your wolves burning to death? So are they. If they happen to catch on fire, they'll stop and shake to put themselves out."
+        "title" : "Fire and poison protection",
+        "line1" : "Tired of your wolves burning to death? So are they. If they happen to catch on fire, they'll stop and shake to put themselves out.",
+        "line2" : "Similar behavior can be observed at poisoning and withering. When wolf ate something dangerous, or become poisoned in any other way, it 'll try to puke it out, thereby removing the negative effect."
     },
     "waterproof" : {
         "title" : "Waterproof Wolves",
@@ -45,22 +50,23 @@
     },
     "friendlyFire" : {
         "title" : "Friendly fire",
-        "line1" : "Wolves can be hit by its owner only when owner is sneaking.(It will protect wolves from accidental hit)"
+        "line1" : "Wolves can be hit by its owner only when owner is sneaking.(It should protect wolves from accidental hit)"
     },
-    "respanw" : {
+    "respawn" : {
         "title" : "Respawning Wolves",
+        "line0" : "This feature was removed since 4.0.0 update",
         "line1" : "Like ocelots, wolves will spawn sporadically in Taiga and Forest biomes and only become persistent when tamed. This also means they won't stick around if you wander off so be sure to bring bones with you if you're looking for wolves!",
         "line2" : "But you can change it configuration file - set \"RespawningWolves\" to \"false\". It will prevent untamed wolves despawn, but, at the same time new \"wild\" sophisticated wolves will not spawn again."
     },
     "feeding" : {
         "title" : "Feeding",
-        "line1" : "Wolves will now also gobble down fish and gain the max amount of health whether their meat is cooked or raw. In addition, they will no longer wander around while begging, so you don't have to chase them down trying to feed them.",
-        "line2" : "Furthermore wolves become more self-sustained - they will search all around for any acceptable food and eat it from the ground to heal itself.",
+        "line1" : "Wolves will now also gobble down fish. In addition, they will no longer wander around while begging, so you don't have to chase them down trying to feed them.",
+        "line2" : "Furthermore wolves become more self-sustained - they will search all around for any acceptable food and eat it from the ground to heal itself. But previously you should train them with bone.",
         "line3" : "Another improvement in dogs feeding is - Dog Bowls. Instead of giving wolves food from hands all the time they were damaged - just craft Dog Bowl, place it somewhere in the house and fill it with food, so wolves can feeds itself when it needed."
     },
     "transporting" : {
         "title" : "Pet Carriers",
-        "line1" : "This small but incredibly handy item can be used to transporting your dogs and even some another small pets and animals(cats, chickens and rabbits) in your inventory. Furthermore it can be used to change owner of the pet."
+        "line1" : "This small but incredibly handy item can be used to transporting your dogs and even some another small pets and animals(chickens, rabbits, parrots, ocelots and foxes) in your inventory. Furthermore it can be used to change owner of the pet."
     },
     "canceling" : {
         "title" : "Attack Pausing/Canceling",
@@ -69,15 +75,12 @@
     },
     "sheep" : {
         "title" : "Sheep farm protection",
+        "line0" : "This feature was removed since 4.0.0 update",
         "line1" : "As far as sophisticated wolves can be respawned in the world you may need a way to protect your sheep farms from wild wolves. Just light your farm - wolves can't be spawned in lighted places(light level should be higher than 5)."
     },
     "mining" : {
         "title" : "Peace of Mining",
         "line1" : "Wolves will no longer wander around and bump into you when you're mining or on a ladder, instead they'll wait patiently for you to finish (unless you're being attacked by monsters of course)."
-    },
-    "death" : {
-        "title" : "Death message",
-        "line1" : "You'll receive wolf \"death message\" at its death."
     },
     "tweak" : {
         "title" : "Tweakable",
