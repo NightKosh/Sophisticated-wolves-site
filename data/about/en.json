@@ -9,6 +9,13 @@
         "line2" : "A zoologist can be found in some villages, not far from a kennels - a small structure consisting of several dog houses with bowls and wild dogs.",
         "line3" : "In order to make an unemployed villager to become a zoologist, just place a dog house and a bowl."
     },
+    "commands" : {
+        "title" : "Commands",
+        "line1" : "By using a regular bone on a tamed wolf, you can teach it new tricks and adjust its behavior. The list of these options is small and divided into 3 groups:",
+        "line2" : "Types of food that wolves will seek out and consume on their own.",
+        "line3" : "Attack targets – allows you to specify which monsters the wolf should attack and which it should ignore.",
+        "line4" : "Behavior – either following the owner or guarding a territory."
+    },
     "nametags" : {
         "title" : "Name tags",
         "line1" : "One of the most oft-requested features, names to differentiate between your pets. Craft a leather Dog Tag and you'll be able to give your pet a proper name(it can be applied to any tameable pet). They behave like normal player name tags when standing but are not visible through walls when sitting.",

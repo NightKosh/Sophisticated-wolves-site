@@ -14,6 +14,14 @@ app.controller("AboutCtrl", ['$scope', '$http', 'PageService', function ($scope,
                 thumb: true
             };
 
+            $scope.about.commandsImg = {
+                images: [
+                    'food.png', 'targets.png', 'commands.png'
+                ],
+                path: "images/img/commands/",
+                thumb: true
+            };
+
             $scope.about.nametagsImg = {
                 images: [
                     '1.png', '2.png', '3.png', '4.png', '5.png', '6.png',
